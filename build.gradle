@@ -1,0 +1,284 @@
+plugins {
+    id "net.fabricmc.fabric-loom" version "${loom_version}"
+    id "maven-publish"
+}
+
+version = project.mod_version
+group = project.maven_group
+
+// This repo is commonly built from both Windows and WSL. Sharing the same build directory between OSes
+// can lead to Loom-generated argfiles containing the wrong path separator (':' vs ';'), which breaks
+// run tasks with errors like "Could not find or load main class net.fabricmc.devlaunchinjector.Main".
+def osName = System.getProperty("os.name", "").toLowerCase(java.util.Locale.ROOT)
+def buildVariant = osName.contains("windows") ? "win" : "wsl"
+def buildOutputSuffix = (project.findProperty("buildOutputSuffix") ?: "").toString()
+if (buildOutputSuffix && !(buildOutputSuffix ==~ /[a-z0-9][a-z0-9-]{0,31}/)) {
+    throw new GradleException("buildOutputSuffix must be lowercase letters, digits or hyphens (max 32)")
+}
+buildDir = file("build-${buildVariant}${buildOutputSuffix ? '-' + buildOutputSuffix : ''}")
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url = "https://maven.fabricmc.net/" }
+    maven { url = "https://maven.terraformersmc.com/releases/" }
+    maven { url = "https://maven.minecraftforge.net/" }
+}
+
+def LOG4J_VERSION = "2.25.3"
+def LZ4_VERSION = "1.10.1"
+def COMMONS_LANG3_VERSION = "3.18.0"
+
+configurations.configureEach {
+    resolutionStrategy {
+        // Force patched log4j and lz4/commons across the graph.
+        force "org.apache.logging.log4j:log4j-core:${LOG4J_VERSION}",
+              "org.apache.logging.log4j:log4j-api:${LOG4J_VERSION}",
+              "at.yawk.lz4:lz4-java:${LZ4_VERSION}",
+              "org.apache.commons:commons-lang3:${COMMONS_LANG3_VERSION}"
+
+        dependencySubstitution {
+            // org.lz4 is abandoned; redirect to maintained fork.
+            substitute module("org.lz4:lz4-java") using module("at.yawk.lz4:lz4-java:${LZ4_VERSION}")
+        }
+    }
+}
+
+loom {
+    splitEnvironmentSourceSets()
+
+    mods {
+        "second_chance" {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+
+}
+
+fabricApi {
+    configureTests {
+        // Loom must own the test source set so runGameTest loads its fabric.mod.json and entrypoints.
+        createSourceSet = true
+        modId = "gems-gametest"
+        enableGameTests = true
+        enableClientGameTests = true
+        eula = true
+    }
+}
+
+sourceSets.gametest.compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+sourceSets.gametest.runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+sourceSets.gametest.runtimeClasspath += sourceSets.client.output + sourceSets.client.runtimeClasspath
+sourceSets.gametest.compileClasspath += sourceSets.client.output + sourceSets.client.compileClasspath
+
+loom {
+    runs {
+        gametestServer {
+            inherit server
+            name "GameTest Server"
+            runDir "run/gametest"
+            source sourceSets.main
+            source sourceSets.gametest
+            vmArg "-Dfabric-api.gametest=1"
+            vmArg "-Dfabric-api.gametest.command=false"
+            vmArg "-Dfabric-api.gametest.report-file=${project.buildDir}/reports/gametest.xml"
+            vmArg "-Dfabric-api.gametest.structures-per-row=1"
+            vmArg "-Dfabric-api.gametest.batch-size=1"
+            vmArg "-Dgems.gametest.complete-delay=20"
+            programArg "nogui"
+        }
+    }
+}
+
+evaluationDependsOn(":gems")
+
+dependencies {
+    implementation project(":gems")
+    // Loom's split client source set is not part of Gems' main API variant.
+    clientImplementation files(rootProject.project(":gems").sourceSets.client.output)
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
+    implementation "com.github.glitchfiend:TerraBlender-fabric:${minecraft_version}-${terrablender_version}"
+    add("clientImplementation", "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}")
+
+    testImplementation platform("org.junit:junit-bom:5.10.2")
+    testImplementation "org.junit.jupiter:junit-jupiter-api"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+
+    // Optional: Mod Menu config screen integration (client-only).
+    clientCompileOnly "com.terraformersmc:modmenu:${modmenu_version}"
+}
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.named("build") {
+    dependsOn(":gems:build")
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+    withSourcesJar()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 25
+
+    def lintEnabled = project.hasProperty("lint") || gradle.startParameter.taskNames.contains("lint")
+    if (lintEnabled) {
+	        it.options.compilerArgs.addAll([
+	                "-Xlint:all",
+	                "-Werror",
+	                "-Xlint:-deprecation",
+	                "-Xlint:-classfile",
+	                "-Xlint:-removal",
+	                "-Xlint:-processing",
+	                "-Xlint:-serial"
+	        ])
+	    }
+
+    if (project.hasProperty("lintDeprecation")) {
+        it.options.compilerArgs.addAll(["-Xlint:deprecation"])
+    }
+}
+
+tasks.register("lint") {
+    group = "verification"
+    description = "Compiles all source sets with strict Java compiler linting (warnings as errors)."
+    dependsOn("compileJava", "compileClientJava", "compileGametestJava", "compileTestJava")
+}
+
+tasks.register("gametest") {
+    group = "verification"
+    description = "Runs Fabric GameTest end-to-end tests in a headless dedicated server."
+    dependsOn("runGametestServer")
+}
+
+def packagedServerRuntime = sourceSets.main.runtimeClasspath
+def packagedClientRuntime = sourceSets.main.runtimeClasspath + sourceSets.client.runtimeClasspath
+tasks.register("writePackagedRuntimeInventory") {
+    group = "verification"
+    description = "Writes cached runtime library paths for an isolated production-jar smoke."
+    def inventory = layout.buildDirectory.file("reports/packaged-runtime-inventory.json")
+    outputs.file(inventory)
+    doLast {
+        def result = [
+                buildOutputSuffix: buildOutputSuffix,
+                server: packagedServerRuntime.files.collect { it.absolutePath },
+                client: packagedClientRuntime.files.collect { it.absolutePath }
+        ]
+        def file = inventory.get().asFile
+        file.parentFile.mkdirs()
+        file.text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(result)) + "\n"
+    }
+}
+
+tasks.register("prepareGametestRunDir") {
+    def runDir = layout.projectDirectory.dir("run/gametest")
+
+    // Don't track state for this task to avoid lock file issues
+    doNotTrackState("Run directory may have active lock files from previous runs.")
+    outputs.dir(runDir)
+
+    doLast {
+        def dirFile = runDir.asFile
+        dirFile.mkdirs()
+
+        def eulaFile = runDir.file("eula.txt").asFile
+        eulaFile.text = "eula=true\n"
+
+        def serverPropertiesFile = runDir.file("server.properties").asFile
+        if (!serverPropertiesFile.exists()) {
+            serverPropertiesFile.text = "online-mode=false\n"
+        }
+    }
+}
+
+tasks.named("runGametestServer").configure {
+    def loomArgFilesDir = layout.buildDirectory.dir("loom-cache/argFiles").get().asFile
+
+    dependsOn("prepareGametestRunDir")
+
+    doFirst {
+        // Loom uses an @argfile under build/loom-cache/argFiles; after `clean` the parent dir may not exist on Windows.
+        loomArgFilesDir.mkdirs()
+    }
+}
+
+// The editable .schem/.litematic files under builds/ are the architecture source.
+// Re-generate Minecraft templates before any jar or in-game resource processing.
+tasks.register("generateSchematicStructures", Exec) {
+    group = "build"
+    description = "Converts editable build schematics into Minecraft 26.3 structure templates."
+    workingDir projectDir
+    def pythonCommand = System.getenv("GEMS_PYTHON")
+            ?: (osName.contains("windows") ? "python" : "python3")
+    commandLine pythonCommand, "-B", "tools/adventure/schematic_pipeline.py", "build"
+    doNotTrackState("The converter preserves unchanged template bytes and verifies live worldgen reachability.")
+}
+
+tasks.named("processResources") {
+    dependsOn("generateSchematicStructures")
+}
+
+processResources {
+    // Gradle 9 incremental snapshotting can be flaky on some Windows/WSL/mounted filesystems.
+    doNotTrackState("Avoid incremental state tracking issues on mounted filesystems.")
+
+    def modVersion = project.version
+    inputs.property "version", modVersion
+    filesMatching("fabric.mod.json") {
+        expand "version": modVersion
+    }
+
+    def sourceRootPath = file("src/main/resources").absolutePath
+    def outputRootPath = destinationDir.absolutePath
+    doLast {
+        // Copy does not remove old output files. A retired structure set left
+        // here would silently become an active worldgen rule in the next jar.
+        def sourceRoot = java.nio.file.Path.of(sourceRootPath)
+        def outputRoot = java.nio.file.Path.of(outputRootPath)
+        def sourcePaths = [] as Set
+        def outputPaths = [] as Set
+        java.nio.file.Files.walk(sourceRoot).withCloseable { paths ->
+            paths.forEach { path ->
+                if (java.nio.file.Files.isRegularFile(path)) {
+                    sourcePaths.add(sourceRoot.relativize(path).toString().replace('\\', '/'))
+                }
+            }
+        }
+        java.nio.file.Files.walk(outputRoot).withCloseable { paths ->
+            paths.forEach { path ->
+                if (java.nio.file.Files.isRegularFile(path)) {
+                    outputPaths.add(outputRoot.relativize(path).toString().replace('\\', '/'))
+                }
+            }
+        }
+        if (sourcePaths != outputPaths) {
+            throw new GradleException("Processed campaign resources differ from source; "
+                    + "extra=${(outputPaths - sourcePaths).sort()}, "
+                    + "missing=${(sourcePaths - outputPaths).sort()}. "
+                    + "Run clean before packaging a release jar.")
+        }
+    }
+}
+
+jar {
+    def licenseFile = file("LICENSE")
+    if (licenseFile.exists()) {
+        def archivesName = project.base.archivesName.get()
+        from(licenseFile) {
+            rename { "${it}_${archivesName}" }
+        }
+    }
+}
