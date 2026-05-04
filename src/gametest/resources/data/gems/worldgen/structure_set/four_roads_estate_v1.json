@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 2603117,
+    "separation": 15,
+    "spacing": 16
+  },
+  "structures": [
+    {
+      "structure": "gems:four_roads_estate_v1",
+      "weight": 1
+    }
+  ]
+}

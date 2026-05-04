@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.feel.gems.gametest.adventure.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["WorldGenRegionDistrictWriterTraceMixin", "PoolElementDistrictWriterTraceMixin"],
+  "injectors": {"defaultRequire": 1}
+}

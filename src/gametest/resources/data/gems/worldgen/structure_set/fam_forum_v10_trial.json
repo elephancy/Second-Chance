@@ -1,0 +1,11 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 26035010,
+    "separation": 6,
+    "spacing": 12
+  },
+  "structures": [
+    { "structure": "gems:fam_forum_v10_trial", "weight": 1 }
+  ]
+}
