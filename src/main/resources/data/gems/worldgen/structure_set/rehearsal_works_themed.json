@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 68251102,
+    "separation": 6,
+    "spacing": 12
+  },
+  "structures": [
+    {
+      "structure": "gems:rehearsal_works_themed",
+      "weight": 1
+    }
+  ]
+}

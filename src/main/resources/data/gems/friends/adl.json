@@ -1,0 +1,17 @@
+{
+  "id": "adl",
+  "name": "Adl",
+  "aliases": [
+    "justin"
+  ],
+  "lines": [
+    "Im going for a world record"
+  ],
+  "hint": "The Survey House maps have a blank patch around Framefall.",
+  "reaction": {
+    "landmark": "framefall_gallery",
+    "before": "The little atelier has the same eye for angles as the gallery.",
+    "visited": "The gallery keeps looking for the same silhouette.",
+    "cleared": "That was a view worth keeping. The Angle Desk can save it for a rematch."
+  }
+}

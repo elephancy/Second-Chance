@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "gems:splitstone_heights",
+    "minecraft:meadow",
+    "minecraft:grove",
+    "minecraft:stony_peaks",
+    "minecraft:snowy_slopes",
+    "minecraft:taiga",
+    "minecraft:snowy_taiga"
+  ]
+}

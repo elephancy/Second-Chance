@@ -1,0 +1,32 @@
+{
+  "id": "effat",
+  "name": "Effat",
+  "aliases": [
+    "strad"
+  ],
+  "hint": "The Court has a long memory for an opening move.",
+  "lines": [
+    "finally, new player after 25 years... let's tussle",
+    "I actually kinda fw minecraft more these days",
+    "Lowkey now that I open this game again I don't recommend u play it ngl",
+    "Yeah no people in this game don't play around",
+    "That's the only actually real game I play",
+    "I could lose a 1v0 right now my cps is down to like 5",
+    "Nah I'd win",
+    "I just gotta roll the wheel some time",
+    "Pi chart pi time",
+    "This group really fell off",
+    "let's all vote the same thing",
+    "Crew vs crew reading session",
+    "Risky play let's see if it pays off",
+    "Committed to the bit",
+    "All I ever wanted was.... a teammate..",
+    "I-... im gonna spread the word"
+  ],
+  "reaction": {
+    "landmark": "unwritten_court",
+    "before": "Every visitor walks into the Court like the stage has never seen them before.",
+    "visited": "It remembered you. I wonder what it thinks you will do next.",
+    "cleared": "That was a better ending. The Stage Desk keeps the next opening ready."
+  }
+}

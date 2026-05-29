@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "gems:othman_library",
+    "gems:othman_library_themed"
+  ]
+}

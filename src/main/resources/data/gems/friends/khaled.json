@@ -1,0 +1,12 @@
+{
+  "id": "khaled",
+  "name": "Khaled",
+  "aliases": [],
+  "hint": "Riverward's bridge and shelters have weather marks left by earlier crossings.",
+  "reaction": {
+    "landmark": "redline_house",
+    "before": "The Redline bridge has seen a lot of bad weather. The shelters still stand.",
+    "visited": "The warning on the bridge made sense once it lit up.",
+    "cleared": "The shelters are brighter now. The crossing feels different."
+  }
+}

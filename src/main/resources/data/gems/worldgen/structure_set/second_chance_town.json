@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 68251007,
+    "separation": 24,
+    "spacing": 64
+  },
+  "structures": [
+    {
+      "structure": "gems:second_chance_town",
+      "weight": 1
+    }
+  ]
+}

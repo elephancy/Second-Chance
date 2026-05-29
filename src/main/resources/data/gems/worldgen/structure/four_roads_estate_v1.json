@@ -1,0 +1,16 @@
+{
+  "type": "gems:four_roads_estate_v1",
+  "biomes": "#gems:has_structure/four_roads_estate_v1",
+  "max_distance_from_center": 124,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "size": 5,
+  "start_height": {
+    "absolute": 0
+  },
+  "start_pool": "gems:four_roads_estate_v5_2_2",
+  "start_jigsaw_name": "gems:four_roads_center_anchor",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false
+}

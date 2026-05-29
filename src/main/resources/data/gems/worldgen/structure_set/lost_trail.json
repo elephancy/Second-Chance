@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 710381,
+    "separation": 23,
+    "spacing": 51
+  },
+  "structures": [
+    {
+      "structure": "gems:lost_trail",
+      "weight": 1
+    }
+  ]
+}

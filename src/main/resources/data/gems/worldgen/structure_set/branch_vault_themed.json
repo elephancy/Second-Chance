@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 68251103,
+    "separation": 6,
+    "spacing": 12
+  },
+  "structures": [
+    {
+      "structure": "gems:branch_vault_themed",
+      "weight": 1
+    }
+  ]
+}

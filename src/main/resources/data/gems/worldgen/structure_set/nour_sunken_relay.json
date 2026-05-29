@@ -1,0 +1,11 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 26800312,
+    "separation": 5,
+    "spacing": 16
+  },
+  "structures": [
+    { "structure": "gems:nour_sunken_relay_v1", "weight": 1 }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "soryal",
+  "name": "Soryal",
+  "aliases": [
+    "surreal"
+  ],
+  "hint": "The Repair Yard's bridge and loft remember two versions of the same plan.",
+  "reaction": {
+    "landmark": "lastlight_exchange",
+    "before": "Lastlight has an old station and a newer wing. They disagree on where the edge is.",
+    "visited": "Did the station feel older or newer from the platform?",
+    "cleared": "Lastlight changed after the fight. The old route is still there."
+  },
+  "lines": [
+    "lossy compression algorithms ftw ts so goated fr",
+    "totally normal friendship",
+    "congrats on escaping",
+    "it's not real, I just checked but the fact I was unsure is saying smth of our time",
+    "he's hiring a broombt engineeeeer"
+  ]
+}

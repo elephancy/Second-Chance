@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 68251006,
+    "separation": 6,
+    "spacing": 12
+  },
+  "structures": [
+    {
+      "structure": "gems:unwritten_court",
+      "weight": 1
+    }
+  ]
+}

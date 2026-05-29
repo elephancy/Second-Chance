@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {"type": "minecraft:uniform", "min": 4, "max": 8}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {"type": "minecraft:uniform", "min": 3, "max": 6}
+            }
+          ]
+        },
+        {"type": "minecraft:item", "name": "minecraft:stone_pickaxe", "weight": 2},
+        {"type": "minecraft:item", "name": "minecraft:shield", "weight": 1}
+      ]
+    }
+  ]
+}

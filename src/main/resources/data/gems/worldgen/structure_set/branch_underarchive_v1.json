@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 26800377,
+    "separation": 8,
+    "spacing": 32,
+    "exclusion_zone": {
+      "other_set": "gems:nour_sunken_relay",
+      "chunk_count": 5
+    }
+  },
+  "structures": [
+    { "structure": "gems:branch_underarchive_v1", "weight": 1 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 68251222,
+    "separation": 12,
+    "spacing": 24
+  },
+  "structures": [
+    {"structure": "gems:redline_ember_bridge_v6", "weight": 1}
+  ]
+}

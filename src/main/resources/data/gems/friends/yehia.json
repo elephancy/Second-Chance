@@ -1,0 +1,23 @@
+{
+  "id": "yehia",
+  "name": "Yehia",
+  "aliases": [
+    "jolly"
+  ],
+  "lines": [
+    "why not amogos",
+    "the game isnt the reward",
+    "im not building up to a joke",
+    "this tells a story",
+    "team gnome is winning tho",
+    "never thought of it as a hangout and more of a lifestyle",
+    "international soup"
+  ],
+  "hint": "The Story Lodge keeps two stories beside one garden path.",
+  "reaction": {
+    "landmark": "rehearsal_works",
+    "before": "The costume house tells one version of Rehearsal. I like the other.",
+    "visited": "The stage learned your rhythm. That made the second act interesting.",
+    "cleared": "Footlights again. Something else opened behind the stage."
+  }
+}

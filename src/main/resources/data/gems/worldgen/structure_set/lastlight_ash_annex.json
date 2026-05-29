@@ -1,0 +1,11 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 68251221,
+    "separation": 20,
+    "spacing": 36
+  },
+  "structures": [
+    {"structure": "gems:lastlight_ash_annex_v5", "weight": 1}
+  ]
+}

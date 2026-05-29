@@ -1,0 +1,25 @@
+{
+  "id": "safwat",
+  "name": "Safwat",
+  "aliases": [],
+  "hint": "Branch Vault looks straight until you see it from the side.",
+  "lines": [
+    "yoooo i might play ts game",
+    "Welcome to the group buddy",
+    "??? bro thats not how the joke goes",
+    "Is this optional reading assignment or is this graded",
+    "So we can play together",
+    "what do we mean by most changed? Like who changed the most since we started this friend group?",
+    "Very poor choice of words",
+    "Idk how that mechanic works",
+    "Linkedin pi time",
+    "i have 8 more respawns im good",
+    "freeze is sleeper build tho"
+  ],
+  "reaction": {
+    "landmark": "branch_vault",
+    "before": "Most people pick the first Branch corridor without looking twice.",
+    "visited": "That first route felt convincing, did it not?",
+    "cleared": "So the other route was real. The Route Desk keeps a record of it."
+  }
+}

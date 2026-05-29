@@ -1,0 +1,29 @@
+{
+  "id": "hamed",
+  "name": "Hamed",
+  "aliases": [
+    "hotdawg"
+  ],
+  "lines": [
+    "You get more than enough money as the game goes on",
+    "why's that a bad thing its peak",
+    "Yoo wait let's implement this power system in fish story 2",
+    "The game that wins usually doesn't do so because of player votes",
+    "Proof that everyone can be redeemed",
+    "I have not farmed once",
+    "Oh so you like books huh? Name all books.",
+    "dw gng im delegating the work like a good ceo would",
+    "Nah must've missed some sidequests",
+    "I'm being ragebaited and it's working",
+    "I'll be back to my former glory one day just you wait",
+    "Make a server call it greed island but with our initials instead yaysm island",
+    "I was literally waiting for you to type this so I can heart it"
+  ],
+  "hint": "Inkbound's old press has two spaces where one title should be.",
+  "reaction": {
+    "landmark": "lastlight_exchange",
+    "before": "Lastlight's market stays open late. The station is another matter.",
+    "visited": "Every clock at that station has a story about the late train.",
+    "cleared": "Lastlight's market still trades. I wonder what else came back with you."
+  }
+}

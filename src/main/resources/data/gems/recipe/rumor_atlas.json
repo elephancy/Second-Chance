@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "C": "minecraft:compass"
+  },
+  "result": {
+    "count": 1,
+    "id": "gems:rumor_atlas"
+  }
+}

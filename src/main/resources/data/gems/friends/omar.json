@@ -1,0 +1,31 @@
+{
+  "id": "omar",
+  "name": "Omar",
+  "aliases": [
+    "curls"
+  ],
+  "hint": "In the Lost Quarter, a receipt and a notebook tell different versions of the same absence.",
+  "lines": [
+    "the level of betrayal i am feeling right now",
+    "the game never existed",
+    "ngl i put it there to make a joke and then forgot it was here",
+    "bro got excluded of his own joke that's crazy",
+    "anti pi-time propaganda",
+    "auto put me in the losing team please",
+    "no matter what i choose ill be on the winning team",
+    "thank you guys but im seriously starting to doubt my memory",
+    "it lost a lot of the silly",
+    "i cannot hate except for the love of the game",
+    "i remember this",
+    "just because you announced the match doesnt mean the players are going to play",
+    "guys if fruits were to go to war with vegetables who would win",
+    "i think sharing knowledge is one of the purest forms of doing good",
+    "it's not always very easy to tell who is \"right people\" and \"wrong people\""
+  ],
+  "reaction": {
+    "landmark": "redline_house",
+    "before": "The bridge is still there. People argue about what it used to connect.",
+    "visited": "Redline remembers that crossing more clearly than I do.",
+    "cleared": "You crossed it. I wonder what the Lost Quarter has forgotten."
+  }
+}

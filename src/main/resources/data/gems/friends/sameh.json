@@ -1,0 +1,26 @@
+{
+  "id": "sameh",
+  "name": "Sameh",
+  "aliases": [
+    "rubius"
+  ],
+  "hint": "Redline's bridge warns the shelters before the storm arrives.",
+  "lines": [
+    "you turn the point a person is at into the next cliff you gotta climb",
+    "Nah trust its funny",
+    "LMFAOOOOOOOOOOOOO they were crashing if you launched the game in the wrong time of day",
+    "Shouldve been sent on pi time",
+    "im borrowing omars magnifying glass",
+    "Why not replay it then",
+    "Mustve been the wind",
+    "Its okay gng we can both enjoy our trip together",
+    "I dont even remember if he was my teammate or enemy till the end",
+    "Yeah all i have to do is get 3 keyboards and write one volume yo maybe this is how he does"
+  ],
+  "reaction": {
+    "landmark": "redline_house",
+    "before": "Those shelters are older than this bridge. I would trust the stone.",
+    "visited": "That warning line made itself hard to miss.",
+    "cleared": "You got through. Rescue Dispatch can mark the way back for the next group."
+  }
+}

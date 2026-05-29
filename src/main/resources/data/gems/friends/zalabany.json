@@ -1,0 +1,12 @@
+{
+  "id": "zalabany",
+  "name": "Zalabany",
+  "aliases": [],
+  "hint": "At Lastlight, the late train always makes the clock look guilty.",
+  "reaction": {
+    "landmark": "lastlight_exchange",
+    "before": "Lastlight never gives you long at the platform. The station still keeps time.",
+    "visited": "You saw the late arrival. People here still disagree about its route.",
+    "cleared": "You have faced the arrival. The Return Board can send another group back when ready."
+  }
+}

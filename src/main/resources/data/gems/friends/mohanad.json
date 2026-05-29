@@ -1,0 +1,18 @@
+{
+  "id": "mohanad",
+  "name": "Mohanad",
+  "aliases": [
+    "teckno"
+  ],
+  "lines": [
+    "i don't like drawing horses",
+    "you can only diverge so much before referencing peak"
+  ],
+  "hint": "Framefall's tracking frame changes color when its view settles.",
+  "reaction": {
+    "landmark": "framefall_gallery",
+    "before": "An atelier's sketch can be more dangerous than the finished gallery.",
+    "visited": "That frame found an angle on you. It does not know every angle.",
+    "cleared": "You changed the view. The Angle Desk keeps the frame ready for a rematch."
+  }
+}

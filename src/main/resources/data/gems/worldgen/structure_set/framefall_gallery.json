@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 68251000,
+    "separation": 6,
+    "spacing": 12
+  },
+  "structures": [
+    {
+      "structure": "gems:framefall_gallery",
+      "weight": 1
+    }
+  ]
+}

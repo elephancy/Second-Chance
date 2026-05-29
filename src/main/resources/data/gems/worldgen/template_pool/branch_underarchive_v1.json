@@ -1,0 +1,17 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gems:branch_underarchive_v2",
+        "processors": {
+          "processors": []
+        },
+        "override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

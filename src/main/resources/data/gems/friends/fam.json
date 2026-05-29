@@ -1,0 +1,23 @@
+{
+  "id": "fam",
+  "name": "Fam",
+  "aliases": [],
+  "lines": [
+    "We really need to make one",
+    "Do we have a tutorial for this group?",
+    "How about we have a nice discussion on the group",
+    "Did u shoot this from ur fridge?",
+    "Me myself and I",
+    "Let me rephrase it",
+    "Fam + anything cool",
+    "I have a team",
+    "U want in?",
+    "My dog dropped my cat on the keyboard mb"
+  ],
+  "hint": "The guidebook covers the journey. The forum has opinions of its own.",
+  "reaction": {
+    "before": "There are two rooms in the forum and at least three arguments about where to start.",
+    "visited": "You came back with your own version of the story. Good.",
+    "cleared": "One story is done. Tell the next player what surprised you."
+  }
+}

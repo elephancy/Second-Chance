@@ -1,0 +1,22 @@
+{
+  "id": "nour",
+  "name": "Nour",
+  "aliases": [
+    "nesegema"
+  ],
+  "lines": [
+    "TeamSpeak time",
+    "True gamer",
+    "I will take (and appreciate) the compliment",
+    "wait is that the real thing?",
+    "I thought those looked like beans but said no way",
+    "Dispatch is cool"
+  ],
+  "hint": "The harbor lamps look different from either side of the fog.",
+  "reaction": {
+    "landmark": "hushwire",
+    "before": "Hushwire has more than one voice coming through the harbor.",
+    "visited": "The calls sounded different once you heard them from shore.",
+    "cleared": "The receivers changed after your win. The harbor sounds quieter."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ali",
+  "name": "Ali",
+  "aliases": [
+    "freeze"
+  ],
+  "lines": [
+    "I got spawncamped",
+    "ask and you shall receive"
+  ],
+  "hint": "At Splitstone, two doors share a threshold but not a destination.",
+  "reaction": {
+    "landmark": "branch_vault",
+    "before": "Branch Vault was built for people who trust the straightest path.",
+    "visited": "Funny how different a corridor looks from the side.",
+    "cleared": "The Solver is gone, but the other route is still there."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 26030591,
+    "spacing": 12,
+    "separation": 8
+  },
+  "structures": [{"structure": "gems:undercard", "weight": 1}]
+}

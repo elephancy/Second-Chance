@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 68251017,
+    "frequency": 0.0,
+    "separation": 24,
+    "spacing": 64
+  },
+  "structures": [
+    {
+      "structure": "gems:soryal_repair_yard",
+      "weight": 1
+    }
+  ]
+}

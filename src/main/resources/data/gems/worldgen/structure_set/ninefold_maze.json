@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 26030091,
+    "separation": 72,
+    "spacing": 128
+  },
+  "structures": [
+    {
+      "structure": "gems:ninefold_maze",
+      "weight": 1
+    }
+  ]
+}

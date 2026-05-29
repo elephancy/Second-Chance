@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 710383,
+    "separation": 33,
+    "spacing": 67
+  },
+  "structures": [
+    {
+      "structure": "gems:skywatch_lookout",
+      "weight": 1
+    }
+  ]
+}

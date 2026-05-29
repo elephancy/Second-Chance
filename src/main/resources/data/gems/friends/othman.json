@@ -1,0 +1,29 @@
+{
+  "id": "othman",
+  "name": "Othman",
+  "aliases": [],
+  "lines": [
+    "imagine if we played multiplayer minecraft",
+    "BRO I REMEMBER THAT GAME",
+    "everyone has the right to knowledge but everyone also has the right not to share that knowledge",
+    "odd name, i remember it being much simpler",
+    "we should play with the pokemon mod",
+    "we get it bro, you played silksong",
+    "the second to last boss, mr factor",
+    "not always, knowledge need to be shared to the right people",
+    "plus this variation could warp the knowledge in the long term",
+    "not always, all sources have their biases",
+    "even when you study from several sources, you always have an intrinsic bias within you",
+    "a human is just a featherless chicken",
+    "depends on the type of knowledge",
+    "like how nintendo patented summoning monsters to fight for the player?",
+    "and if they discover it themselves, you can at least respect them for that"
+  ],
+  "hint": "The archive keeps a public catalog and a private note for the same story.",
+  "reaction": {
+    "landmark": "framefall_gallery",
+    "before": "Framefall's catalog has a lot of beautiful omissions.",
+    "visited": "The gallery made its angle clear. The archive has other versions.",
+    "cleared": "The panels have changed. It might be time to revisit the archive."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 68251011,
+    "separation": 10,
+    "spacing": 32
+  },
+  "structures": [
+    {
+      "structure": "gems:nour_signal_harbor",
+      "weight": 1
+    }
+  ]
+}

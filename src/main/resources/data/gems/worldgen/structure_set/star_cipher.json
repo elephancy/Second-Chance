@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 710382,
+    "separation": 31,
+    "spacing": 63
+  },
+  "structures": [
+    {
+      "structure": "gems:star_cipher",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "mostafa",
+  "name": "Mostafa",
+  "aliases": [
+    "tofy"
+  ],
+  "hint": "At Rehearsal, the stage remembers how its last visitor moved.",
+  "lines": [
+    "Ragebaited to touch grass",
+    "if all of rps ganged up on u in a 1v20 bedwars game... would u lose?",
+    "this is without even introducing a main villain to the story yet",
+    "Bro othman u lost the plot badly",
+    "hey bro, i never said this project was good, but i did it and i did it well",
+    "man this game was so fire",
+    "tell me the characters and what their builds are"
+  ],
+  "reaction": {
+    "landmark": "rehearsal_works",
+    "before": "The costume house rehearses the same story the big stage tells.",
+    "visited": "The spotlight remembered your step. It looked almost pleased with itself.",
+    "cleared": "The curtain went up again. The Practice Stage is open for the next act."
+  }
+}
