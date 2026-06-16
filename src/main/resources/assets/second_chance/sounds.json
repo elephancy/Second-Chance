@@ -1,0 +1,248 @@
+{
+  "story_page_turn": {
+    "subtitle": "subtitles.second_chance.story_page_turn",
+    "sounds": [
+      "gems:story_page_turn"
+    ]
+  },
+  "story_ink_write": {
+    "subtitle": "subtitles.second_chance.story_ink_write",
+    "sounds": [
+      "gems:story_ink_write"
+    ]
+  },
+  "story_record_seal": {
+    "subtitle": "subtitles.second_chance.story_record_seal",
+    "sounds": [
+      "gems:story_record_seal"
+    ]
+  },
+  "creature_paper": {
+    "subtitle": "subtitles.second_chance.creature_paper",
+    "sounds": [
+      "gems:creature_paper"
+    ]
+  },
+  "creature_clockwork": {
+    "subtitle": "subtitles.second_chance.creature_clockwork",
+    "sounds": [
+      "gems:creature_clockwork"
+    ]
+  },
+  "creature_breath": {
+    "subtitle": "subtitles.second_chance.creature_breath",
+    "sounds": [
+      "gems:creature_breath"
+    ]
+  },
+  "creature_stone": {
+    "subtitle": "subtitles.second_chance.creature_stone",
+    "sounds": [
+      "gems:creature_stone"
+    ]
+  },
+  "creature_reed": {
+    "subtitle": "subtitles.second_chance.creature_reed",
+    "sounds": [
+      "gems:creature_reed"
+    ]
+  },
+  "verdict_aim": {
+    "subtitle": "subtitles.second_chance.verdict_aim",
+    "sounds": [
+      "gems:verdict_aim"
+    ]
+  },
+  "verdict_release": {
+    "subtitle": "subtitles.second_chance.verdict_release",
+    "sounds": [
+      "gems:verdict_release"
+    ]
+  },
+  "hushwire_false": {
+    "subtitle": "subtitles.second_chance.hushwire_false",
+    "sounds": [
+      "gems:hushwire_false"
+    ]
+  },
+  "hushwire_true": {
+    "subtitle": "subtitles.second_chance.hushwire_true",
+    "sounds": [
+      "gems:hushwire_true"
+    ]
+  },
+  "hushwire_pulse": {
+    "subtitle": "subtitles.second_chance.hushwire_pulse",
+    "sounds": [
+      "gems:hushwire_pulse"
+    ]
+  },
+  "casino_card_shuffle": {
+    "subtitle": "subtitles.second_chance.casino_card_shuffle",
+    "sounds": [
+      "gems:casino_card_shuffle"
+    ]
+  },
+  "casino_card_place": {
+    "subtitle": "subtitles.second_chance.casino_card_place",
+    "sounds": [
+      "gems:casino_card_place"
+    ]
+  },
+  "casino_chip_lay": {
+    "subtitle": "subtitles.second_chance.casino_chip_lay",
+    "sounds": [
+      "gems:casino_chip_lay"
+    ]
+  },
+  "casino_chips_stack": {
+    "subtitle": "subtitles.second_chance.casino_chips_stack",
+    "sounds": [
+      "gems:casino_chips_stack"
+    ]
+  },
+  "casino_wheel_tick": {
+    "subtitle": "subtitles.second_chance.casino_wheel_tick",
+    "sounds": [
+      "gems:casino_wheel_tick"
+    ]
+  },
+  "casino_reels_spin": {
+    "subtitle": "subtitles.second_chance.casino_reels_spin",
+    "sounds": [
+      "gems:casino_reels_spin"
+    ]
+  },
+  "casino_rps_throw": {
+    "subtitle": "subtitles.second_chance.casino_rps_throw",
+    "sounds": [
+      "gems:casino_rps_throw"
+    ]
+  },
+  "casino_trivia_choice": {
+    "subtitle": "subtitles.second_chance.casino_trivia_choice",
+    "sounds": [
+      "gems:casino_trivia_choice"
+    ]
+  },
+  "casino_loss": {
+    "subtitle": "subtitles.second_chance.casino_loss",
+    "sounds": [
+      "gems:casino_loss"
+    ]
+  },
+  "cadenza_call": {
+    "subtitle": "subtitles.second_chance.cadenza_call",
+    "sounds": [
+      "gems:cadenza_call"
+    ]
+  },
+  "cadenza_lock": {
+    "subtitle": "subtitles.second_chance.cadenza_lock",
+    "sounds": [
+      "gems:cadenza_lock"
+    ]
+  },
+  "cadenza_strike": {
+    "subtitle": "subtitles.second_chance.cadenza_strike",
+    "sounds": [
+      "gems:cadenza_strike"
+    ]
+  },
+  "lastlight_call": {
+    "subtitle": "subtitles.second_chance.lastlight_call",
+    "sounds": [
+      "gems:lastlight_call"
+    ]
+  },
+  "lastlight_lock": {
+    "subtitle": "subtitles.second_chance.lastlight_lock",
+    "sounds": [
+      "gems:lastlight_lock"
+    ]
+  },
+  "lastlight_strike": {
+    "subtitle": "subtitles.second_chance.lastlight_strike",
+    "sounds": [
+      "gems:lastlight_strike"
+    ]
+  },
+  "rehearsal_call": {
+    "subtitle": "subtitles.second_chance.rehearsal_call",
+    "sounds": [
+      "gems:rehearsal_call"
+    ]
+  },
+  "rehearsal_lock": {
+    "subtitle": "subtitles.second_chance.rehearsal_lock",
+    "sounds": [
+      "gems:rehearsal_lock"
+    ]
+  },
+  "rehearsal_strike": {
+    "subtitle": "subtitles.second_chance.rehearsal_strike",
+    "sounds": [
+      "gems:rehearsal_strike"
+    ]
+  },
+  "branch_call": {
+    "subtitle": "subtitles.second_chance.branch_call",
+    "sounds": [
+      "gems:branch_call"
+    ]
+  },
+  "branch_lock": {
+    "subtitle": "subtitles.second_chance.branch_lock",
+    "sounds": [
+      "gems:branch_lock"
+    ]
+  },
+  "branch_strike": {
+    "subtitle": "subtitles.second_chance.branch_strike",
+    "sounds": [
+      "gems:branch_strike"
+    ]
+  },
+  "redline_call": {
+    "subtitle": "subtitles.second_chance.redline_call",
+    "sounds": [
+      "gems:redline_call"
+    ]
+  },
+  "redline_lock": {
+    "subtitle": "subtitles.second_chance.redline_lock",
+    "sounds": [
+      "gems:redline_lock"
+    ]
+  },
+  "redline_strike": {
+    "subtitle": "subtitles.second_chance.redline_strike",
+    "sounds": [
+      "gems:redline_strike"
+    ]
+  },
+  "redline_shelter": {
+    "subtitle": "subtitles.second_chance.redline_shelter",
+    "sounds": [
+      "gems:redline_shelter"
+    ]
+  },
+  "maze_seal": {
+    "subtitle": "subtitles.second_chance.maze_seal",
+    "sounds": [
+      "gems:maze_seal"
+    ]
+  },
+  "maze_trap": {
+    "subtitle": "subtitles.second_chance.maze_trap",
+    "sounds": [
+      "gems:maze_trap"
+    ]
+  },
+  "maze_reset": {
+    "subtitle": "subtitles.second_chance.maze_reset",
+    "sounds": [
+      "gems:maze_reset"
+    ]
+  }
+}

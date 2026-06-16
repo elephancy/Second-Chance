@@ -1,0 +1,1 @@
+{"variants": {"facing=north": {"model": "gems:block/source_root", "y": 0}, "facing=east": {"model": "gems:block/source_root", "y": 90}, "facing=south": {"model": "gems:block/source_root", "y": 180}, "facing=west": {"model": "gems:block/source_root", "y": 270}}}

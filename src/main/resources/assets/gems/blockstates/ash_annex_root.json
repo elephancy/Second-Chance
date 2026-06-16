@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gems:block/ash_annex_root"
+    },
+    "facing=east": {
+      "model": "gems:block/ash_annex_root"
+    },
+    "facing=south": {
+      "model": "gems:block/ash_annex_root"
+    },
+    "facing=west": {
+      "model": "gems:block/ash_annex_root"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "ash_template": "gems:lastlight_ash_annex_v2",
+  "ember_template": "gems:redline_ember_bridge_v2",
+  "ash_clearance": [
+    [
+      21,
+      46,
+      480
+    ],
+    [
+      22,
+      46,
+      480
+    ],
+    [
+      23,
+      46,
+      480
+    ],
+    [
+      24,
+      46,
+      480
+    ],
+    [
+      25,
+      46,
+      480
+    ]
+  ],
+  "ember_clearance": []
+}

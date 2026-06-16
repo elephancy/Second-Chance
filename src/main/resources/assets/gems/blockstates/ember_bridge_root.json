@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gems:block/ember_bridge_root"
+    },
+    "facing=east": {
+      "model": "gems:block/ember_bridge_root"
+    },
+    "facing=south": {
+      "model": "gems:block/ember_bridge_root"
+    },
+    "facing=west": {
+      "model": "gems:block/ember_bridge_root"
+    }
+  }
+}
