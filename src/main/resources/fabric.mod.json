@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "second_chance",
+  "version": "${version}",
+  "name": "Second Chance",
+  "description": "Friend realms, worldgen, campaign discoveries, bosses, and shared townhall rewards for Gems.",
+  "authors": ["feel"],
+  "contact": {
+    "homepage": "https://github.com/mahmoudelfeelig/Gems",
+    "sources": "https://github.com/mahmoudelfeelig/Gems",
+    "issues": "https://github.com/mahmoudelfeelig/Gems/issues"
+  },
+  "license": "AGPL-3.0-only",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.feel.gems.adventure.SecondChanceMod"],
+    "client": ["com.feel.gems.client.adventure.SecondChanceClientMod"],
+    "terrablender": ["com.feel.gems.adventure.worldgen.AdventureBiomes"]
+  },
+  "mixins": ["second_chance.mixins.json"],
+  "depends": {
+    "java": ">=25",
+    "fabricloader": ">=0.19.5",
+    "fabric-api": ">=0.161.0+26.3",
+    "minecraft": "~26.3",
+    "gems": "${version}",
+    "terrablender": ">=26.3.0.0.7"
+  }
+}
