@@ -1,0 +1,5463 @@
+{
+  "minecraft": "26.3",
+  "pieces": {
+    "adl_bearing_hall_v9": {
+      "source": "adl_bearing_hall.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:adl_chart_library_v9"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:adl_sight_tower_v9"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            13,
+            5,
+            25,
+            "minecraft:chest"
+          ],
+          [
+            23,
+            5,
+            37,
+            "minecraft:sign"
+          ],
+          [
+            34,
+            5,
+            25,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:friend",
+            16.5,
+            5.0,
+            23.5
+          ]
+        ]
+      }
+    },
+    "adl_chart_library_v9": {
+      "source": "adl_chart_library.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            40,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            25,
+            5,
+            24,
+            "minecraft:chest"
+          ],
+          [
+            30,
+            5,
+            25,
+            "minecraft:sign"
+          ],
+          [
+            40,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "adl_sight_tower_v9": {
+      "source": "adl_sight_tower.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ],
+          [
+            10,
+            5,
+            27,
+            "minecraft:sign"
+          ],
+          [
+            15,
+            5,
+            23,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "ali_cut_chapel_full_v5": {
+      "source": "ali_cut_chapel_full.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            40,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            25,
+            5,
+            23,
+            "minecraft:chest"
+          ],
+          [
+            30,
+            5,
+            27,
+            "minecraft:sign"
+          ],
+          [
+            40,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "ali_high_atlas_hall_full_v5": {
+      "source": "ali_high_atlas_hall_full.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ],
+          [
+            12,
+            13,
+            23,
+            "minecraft:sign"
+          ],
+          [
+            14,
+            5,
+            24,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "ali_splitstone_citadel_full_v6": {
+      "source": "ali_splitstone_citadel_full.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:ali_cut_chapel_full_v5"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:ali_high_atlas_hall_full_v5"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            18,
+            5,
+            23,
+            "minecraft:chest"
+          ],
+          [
+            20,
+            5,
+            3,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            5,
+            35,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            5,
+            44,
+            "minecraft:sign"
+          ],
+          [
+            28,
+            5,
+            23,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:friend",
+            23.5,
+            5.0,
+            41.5
+          ]
+        ]
+      }
+    },
+    "branch_escape_tower_v3": {
+      "source": "branch_escape_tower.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            15,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            15,
+            "minecraft:jigsaw"
+          ],
+          [
+            6,
+            5,
+            20,
+            "minecraft:sign"
+          ],
+          [
+            16,
+            5,
+            20,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:margin_shade",
+            16.5,
+            5.0,
+            15.5
+          ]
+        ]
+      }
+    },
+    "branch_map_room_v3": {
+      "source": "branch_map_room.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            30,
+            5,
+            15,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            16,
+            5,
+            20,
+            "minecraft:chest"
+          ],
+          [
+            18,
+            5,
+            19,
+            "minecraft:sign"
+          ],
+          [
+            22,
+            5,
+            19,
+            "minecraft:sign"
+          ],
+          [
+            24,
+            5,
+            11,
+            "minecraft:sign"
+          ],
+          [
+            30,
+            5,
+            15,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:margin_shade",
+            20.5,
+            6.0,
+            14.5
+          ]
+        ]
+      }
+    },
+    "branch_outer_vista_v7": {
+      "source": "branch_outer_vista.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            1,
+            8,
+            0,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            1,
+            8,
+            0,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "branch_underarchive_v2": {
+      "source": "branch_underarchive.schem",
+      "markers": {
+        "jigsaws": [],
+        "block_entities": [
+          [
+            13,
+            5,
+            24,
+            "minecraft:sign"
+          ],
+          [
+            24,
+            5,
+            13,
+            "minecraft:sign"
+          ],
+          [
+            24,
+            5,
+            32,
+            "minecraft:sign"
+          ],
+          [
+            33,
+            5,
+            24,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "branch_vault_vista_v7": {
+      "source": "branch_vault_vista.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:branch_map_room_v3"
+          ],
+          [
+            31,
+            8,
+            46,
+            "gems:branch_outer_vista_v7"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:branch_escape_tower_v3"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            13,
+            5,
+            33,
+            "minecraft:chest"
+          ],
+          [
+            21,
+            5,
+            38,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            17,
+            23,
+            "minecraft:chest"
+          ],
+          [
+            25,
+            5,
+            38,
+            "minecraft:sign"
+          ],
+          [
+            31,
+            8,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:second_move_solver",
+            23.5,
+            5.0,
+            33.5
+          ]
+        ]
+      }
+    },
+    "fam_arrival_reference_v10": {
+      "source": "fam_arrival_reference.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            4,
+            5,
+            0,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            4,
+            5,
+            0,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "fam_east_reference_v1": {
+      "source": "fam_east_reference.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            1,
+            5,
+            0,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            1,
+            5,
+            0,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "fam_forum_arcaded_court_v10": {
+      "source": "fam_forum_arcaded_court.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:fam_open_school_workshop_v10"
+          ],
+          [
+            21,
+            5,
+            46,
+            "gems:fam_east_reference_v1"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:fam_story_hall_reading_garden_v10"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            5,
+            22,
+            "minecraft:chest"
+          ],
+          [
+            21,
+            5,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            5,
+            34,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            6,
+            31,
+            "minecraft:sign"
+          ],
+          [
+            27,
+            5,
+            22,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:friend",
+            23.5,
+            6.0,
+            22.5
+          ]
+        ]
+      }
+    },
+    "fam_open_school_workshop_v10": {
+      "source": "fam_open_school_workshop.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            20,
+            5,
+            40,
+            "gems:fam_arrival_reference_v10"
+          ],
+          [
+            40,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            20,
+            5,
+            40,
+            "minecraft:jigsaw"
+          ],
+          [
+            24,
+            5,
+            24,
+            "minecraft:chest"
+          ],
+          [
+            26,
+            5,
+            22,
+            "minecraft:sign"
+          ],
+          [
+            30,
+            5,
+            25,
+            "minecraft:sign"
+          ],
+          [
+            31,
+            6,
+            18,
+            "minecraft:sign"
+          ],
+          [
+            32,
+            6,
+            20,
+            "minecraft:sign"
+          ],
+          [
+            40,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "fam_story_hall_reading_garden_v10": {
+      "source": "fam_story_hall_reading_garden.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:empty"
+          ],
+          [
+            20,
+            5,
+            40,
+            "gems:fam_arrival_reference_v10"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ],
+          [
+            10,
+            5,
+            25,
+            "minecraft:sign"
+          ],
+          [
+            11,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            12,
+            6,
+            20,
+            "minecraft:sign"
+          ],
+          [
+            14,
+            5,
+            25,
+            "minecraft:chest"
+          ],
+          [
+            20,
+            5,
+            40,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_0_0": {
+      "source": "four_roads_estate_0_0.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            3,
+            5,
+            7,
+            "minecraft:chest"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            38,
+            5,
+            35,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_0_1": {
+      "source": "four_roads_estate_0_1.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "gems:four_roads_estate_v1_0_0"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "gems:four_roads_estate_v1_0_2"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_0_2": {
+      "source": "four_roads_estate_0_2.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "gems:four_roads_estate_v1_0_3"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            17,
+            5,
+            3,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            38,
+            5,
+            28,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_0_3": {
+      "source": "four_roads_estate_0_3.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_0_4": {
+      "source": "four_roads_estate_0_4.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            19,
+            6,
+            46,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            38,
+            5,
+            21,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_1_0": {
+      "source": "four_roads_estate_1_0.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            19,
+            6,
+            46,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_1_1": {
+      "source": "four_roads_estate_1_1.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            19,
+            6,
+            0,
+            "gems:four_roads_estate_v1_0_1"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            31,
+            5,
+            21,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_1_3": {
+      "source": "four_roads_estate_1_3.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            19,
+            6,
+            46,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "gems:four_roads_estate_v1_1_4"
+          ]
+        ],
+        "block_entities": [
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            31,
+            5,
+            14,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_1_4": {
+      "source": "four_roads_estate_1_4.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:empty"
+          ],
+          [
+            19,
+            6,
+            0,
+            "gems:four_roads_estate_v1_0_4"
+          ],
+          [
+            19,
+            6,
+            46,
+            "gems:four_roads_estate_v1_2_4"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_2_0": {
+      "source": "four_roads_estate_2_0.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            19,
+            6,
+            0,
+            "gems:four_roads_estate_v1_1_0"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            3,
+            5,
+            17,
+            "minecraft:sign"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_2_4": {
+      "source": "four_roads_estate_2_4.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            19,
+            6,
+            0,
+            "minecraft:empty"
+          ],
+          [
+            19,
+            6,
+            46,
+            "gems:four_roads_estate_v1_3_4"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            38,
+            5,
+            17,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_3_0": {
+      "source": "four_roads_estate_3_0.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            19,
+            6,
+            0,
+            "gems:four_roads_estate_v1_2_0"
+          ],
+          [
+            19,
+            6,
+            46,
+            "gems:four_roads_estate_v1_4_0"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            10,
+            5,
+            35,
+            "minecraft:chest"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_3_1": {
+      "source": "four_roads_estate_3_1.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "gems:four_roads_estate_v1_3_0"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_3_3": {
+      "source": "four_roads_estate_3_3.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:empty"
+          ],
+          [
+            19,
+            6,
+            46,
+            "gems:four_roads_estate_v1_4_3"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_3_4": {
+      "source": "four_roads_estate_3_4.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            19,
+            6,
+            0,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            10,
+            5,
+            21,
+            "minecraft:chest"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_4_0": {
+      "source": "four_roads_estate_4_0.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            19,
+            6,
+            0,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_4_1": {
+      "source": "four_roads_estate_4_1.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            3,
+            5,
+            21,
+            "minecraft:chest"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_4_2": {
+      "source": "four_roads_estate_4_2.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "gems:four_roads_estate_v1_4_1"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            17,
+            5,
+            38,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_4_3": {
+      "source": "four_roads_estate_4_3.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "gems:four_roads_estate_v1_4_2"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "gems:four_roads_estate_v1_4_4"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            3,
+            5,
+            14,
+            "minecraft:chest"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            38,
+            5,
+            42,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v1_4_4": {
+      "source": "four_roads_estate_4_4.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v4_1_2": {
+      "source": "four_roads_estate_1_2.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "gems:four_roads_estate_v1_1_1"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v4_2_1": {
+      "source": "four_roads_estate_2_1.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            19,
+            6,
+            46,
+            "gems:four_roads_estate_v1_3_1"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v4_2_3": {
+      "source": "four_roads_estate_2_3.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:empty"
+          ],
+          [
+            19,
+            6,
+            0,
+            "gems:four_roads_estate_v1_1_3"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            17,
+            5,
+            35,
+            "minecraft:chest"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v4_3_2": {
+      "source": "four_roads_estate_3_2.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            19,
+            6,
+            0,
+            "minecraft:empty"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "gems:four_roads_estate_v1_3_3"
+          ]
+        ],
+        "block_entities": [
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "four_roads_estate_v5_2_2": {
+      "source": "four_roads_estate_2_2.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "gems:four_roads_estate_v4_2_1"
+          ],
+          [
+            19,
+            6,
+            0,
+            "gems:four_roads_estate_v4_1_2"
+          ],
+          [
+            19,
+            6,
+            46,
+            "gems:four_roads_estate_v4_3_2"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "gems:four_roads_estate_v4_2_3"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            21,
+            5,
+            28,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            6,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "framefall_atelier_v6": {
+      "source": "framefall_atelier.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            9,
+            "minecraft:empty"
+          ],
+          [
+            16,
+            5,
+            0,
+            "gems:framefall_promenade_v6"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            9,
+            "minecraft:jigsaw"
+          ],
+          [
+            5,
+            5,
+            14,
+            "minecraft:sign"
+          ],
+          [
+            7,
+            5,
+            8,
+            "minecraft:sign"
+          ],
+          [
+            10,
+            5,
+            13,
+            "minecraft:sign"
+          ],
+          [
+            15,
+            5,
+            5,
+            "minecraft:chest"
+          ],
+          [
+            16,
+            5,
+            0,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:sketchguard",
+            10.5,
+            5.0,
+            9.5
+          ]
+        ]
+      }
+    },
+    "framefall_gallery_v6": {
+      "source": "framefall_gallery.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:framefall_garden_v6"
+          ],
+          [
+            23,
+            5,
+            0,
+            "gems:framefall_observatory_v6"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:framefall_atelier_v6"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            9,
+            5,
+            34,
+            "minecraft:chest"
+          ],
+          [
+            23,
+            5,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            5,
+            35,
+            "minecraft:sign"
+          ],
+          [
+            37,
+            5,
+            12,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:painted_verdict",
+            23.5,
+            5.0,
+            23.5
+          ]
+        ]
+      }
+    },
+    "framefall_garden_v6": {
+      "source": "framefall_garden.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            18,
+            5,
+            9,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            4,
+            5,
+            15,
+            "minecraft:chest"
+          ],
+          [
+            7,
+            5,
+            14,
+            "minecraft:sign"
+          ],
+          [
+            11,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            12,
+            5,
+            11,
+            "minecraft:sign"
+          ],
+          [
+            18,
+            5,
+            9,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:sketchguard",
+            13.5,
+            5.0,
+            9.5
+          ]
+        ]
+      }
+    },
+    "framefall_observatory_v6": {
+      "source": "framefall_observatory.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            8,
+            5,
+            16,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            8,
+            5,
+            11,
+            "minecraft:sign"
+          ],
+          [
+            8,
+            5,
+            16,
+            "minecraft:jigsaw"
+          ],
+          [
+            11,
+            5,
+            10,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "framefall_promenade_v6": {
+      "source": "framefall_promenade.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            15,
+            5,
+            46,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            15,
+            5,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            21,
+            14,
+            9,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "hamed_cherry_lane_v5": {
+      "source": "hamed_cherry_lane.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            23,
+            11,
+            0,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            8,
+            11,
+            10,
+            "minecraft:chest"
+          ],
+          [
+            18,
+            11,
+            6,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            11,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            35,
+            11,
+            20,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "hamed_paper_garden_cherry_v4": {
+      "source": "hamed_paper_garden_cherry.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            46,
+            5,
+            23,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            10,
+            5,
+            33,
+            "minecraft:chest"
+          ],
+          [
+            12,
+            5,
+            36,
+            "minecraft:sign"
+          ],
+          [
+            29,
+            5,
+            25,
+            "minecraft:sign"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "hamed_print_hall_cherry_v6": {
+      "source": "hamed_print_hall_cherry.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            12,
+            31,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            12,
+            31,
+            "minecraft:jigsaw"
+          ],
+          [
+            12,
+            12,
+            31,
+            "minecraft:sign"
+          ],
+          [
+            26,
+            12,
+            41,
+            "minecraft:chest"
+          ],
+          [
+            36,
+            12,
+            41,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "hamed_workshop_cherry_v7": {
+      "source": "hamed_workshop_cherry.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:hamed_paper_garden_cherry_v4"
+          ],
+          [
+            23,
+            5,
+            46,
+            "gems:hamed_cherry_lane_v5"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:hamed_print_hall_cherry_v6"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            15,
+            5,
+            26,
+            "minecraft:chest"
+          ],
+          [
+            17,
+            6,
+            14,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            5,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            27,
+            5,
+            29,
+            "minecraft:sign"
+          ],
+          [
+            31,
+            5,
+            26,
+            "minecraft:chest"
+          ],
+          [
+            41,
+            5,
+            42,
+            "minecraft:sign"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:friend",
+            23.5,
+            5.0,
+            29.5
+          ]
+        ]
+      }
+    },
+    "hushwire_procession_v5": {
+      "source": "hushwire_procession.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            5,
+            8,
+            0,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            5,
+            8,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            12,
+            4,
+            "minecraft:sign"
+          ],
+          [
+            26,
+            12,
+            12,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "hushwire_receiver_field_v5": {
+      "source": "hushwire_receiver_field.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ],
+          [
+            6,
+            5,
+            27,
+            "minecraft:sign"
+          ],
+          [
+            18,
+            5,
+            27,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:relay_phantom",
+            6.5,
+            5.0,
+            24.5
+          ]
+        ]
+      }
+    },
+    "hushwire_record_hall_v10": {
+      "source": "hushwire_record_hall.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:hushwire_relay_crypt_v5"
+          ],
+          [
+            14,
+            0,
+            46,
+            "gems:hushwire_procession_v5"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:hushwire_receiver_field_v5"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            10,
+            5,
+            33,
+            "minecraft:chest"
+          ],
+          [
+            14,
+            0,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            5,
+            35,
+            "minecraft:sign"
+          ],
+          [
+            27,
+            19,
+            28,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:empty_encore",
+            23.5,
+            5.0,
+            23.5
+          ]
+        ]
+      }
+    },
+    "hushwire_relay_crypt_v5": {
+      "source": "hushwire_relay_crypt.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            40,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            25,
+            5,
+            25,
+            "minecraft:chest"
+          ],
+          [
+            34,
+            5,
+            16,
+            "minecraft:sign"
+          ],
+          [
+            40,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:relay_phantom",
+            30.5,
+            5.0,
+            22.5
+          ]
+        ]
+      }
+    },
+    "khaled_refuge_clinic_v6": {
+      "source": "khaled_refuge_clinic.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            34,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            19,
+            5,
+            15,
+            "minecraft:chest"
+          ],
+          [
+            26,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            34,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "khaled_riverward_floodgate_v8": {
+      "source": "khaled_riverward_floodgate.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:khaled_refuge_clinic_v6"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:khaled_tide_engine_v6"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            13,
+            5,
+            14,
+            "minecraft:chest"
+          ],
+          [
+            23,
+            5,
+            36,
+            "minecraft:sign"
+          ],
+          [
+            33,
+            5,
+            14,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:friend",
+            16.5,
+            5.0,
+            12.5
+          ]
+        ]
+      }
+    },
+    "khaled_tide_engine_v6": {
+      "source": "khaled_tide_engine.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ],
+          [
+            9,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            14,
+            5,
+            15,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "lastlight_ash_annex_v5": {
+      "source": "lastlight_ash_annex.schem",
+      "markers": {
+        "jigsaws": [],
+        "block_entities": [
+          [
+            20,
+            6,
+            45,
+            "minecraft:sign"
+          ],
+          [
+            21,
+            6,
+            32,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "lastlight_exchange_arrival_v4": {
+      "source": "lastlight_exchange_arrival.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:lastlight_signal_box_v2"
+          ],
+          [
+            22,
+            5,
+            46,
+            "gems:lastlight_seegras_street_arrival_v2"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:lastlight_market_bridge_v3"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            12,
+            5,
+            13,
+            "minecraft:chest"
+          ],
+          [
+            22,
+            5,
+            31,
+            "minecraft:sign"
+          ],
+          [
+            22,
+            5,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            25,
+            5,
+            34,
+            "minecraft:sign"
+          ],
+          [
+            26,
+            5,
+            32,
+            "minecraft:sign"
+          ],
+          [
+            39,
+            8,
+            9,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:last_arrival",
+            22.5,
+            5.0,
+            22.5
+          ]
+        ]
+      }
+    },
+    "lastlight_market_bridge_v3": {
+      "source": "lastlight_market_bridge.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ],
+          [
+            6,
+            5,
+            17,
+            "minecraft:sign"
+          ],
+          [
+            17,
+            6,
+            16,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:signal_warden",
+            6.5,
+            5.0,
+            12.5
+          ]
+        ]
+      }
+    },
+    "lastlight_seegras_street_arrival_v2": {
+      "source": "lastlight_seegras_street_arrival.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            22,
+            5,
+            0,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            8,
+            8,
+            18,
+            "minecraft:chest"
+          ],
+          [
+            11,
+            8,
+            18,
+            "minecraft:sign"
+          ],
+          [
+            22,
+            5,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            34,
+            9,
+            36,
+            "minecraft:sign"
+          ],
+          [
+            39,
+            9,
+            35,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "lastlight_signal_box_v2": {
+      "source": "lastlight_signal_box.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            20,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            6,
+            5,
+            14,
+            "minecraft:chest"
+          ],
+          [
+            14,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            20,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:signal_warden",
+            10.5,
+            5.0,
+            12.5
+          ]
+        ]
+      }
+    },
+    "lost_trail": {
+      "source": "lost_trail.schem",
+      "markers": {
+        "jigsaws": [],
+        "block_entities": [
+          [
+            4,
+            4,
+            10,
+            "minecraft:sign"
+          ],
+          [
+            36,
+            4,
+            10,
+            "minecraft:sign"
+          ],
+          [
+            36,
+            4,
+            38,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "ninefold_maze_0_0": {
+      "source": "ninefold_maze_0_0.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            46,
+            6,
+            19,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            5,
+            5,
+            5,
+            "minecraft:chest"
+          ],
+          [
+            10,
+            14,
+            14,
+            "minecraft:sign"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "ninefold_maze_0_1": {
+      "source": "ninefold_maze_0_1.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "gems:ninefold_maze_0_0"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "gems:ninefold_maze_0_2"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            26,
+            5,
+            40,
+            "minecraft:chest"
+          ],
+          [
+            26,
+            14,
+            12,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "ninefold_maze_0_2": {
+      "source": "ninefold_maze_0_2.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            5,
+            26,
+            "minecraft:chest"
+          ],
+          [
+            40,
+            23,
+            11,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "ninefold_maze_1_0": {
+      "source": "ninefold_maze_1_0.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            46,
+            6,
+            19,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            33,
+            5,
+            12,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "ninefold_maze_1_1": {
+      "source": "ninefold_maze_1_1.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "gems:ninefold_maze_1_0"
+          ],
+          [
+            19,
+            6,
+            0,
+            "gems:ninefold_maze_0_1"
+          ],
+          [
+            19,
+            6,
+            46,
+            "gems:ninefold_maze_2_1"
+          ],
+          [
+            46,
+            6,
+            19,
+            "gems:ninefold_maze_1_2"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            6,
+            46,
+            "minecraft:jigsaw"
+          ],
+          [
+            19,
+            14,
+            33,
+            "minecraft:chest"
+          ],
+          [
+            19,
+            23,
+            5,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "ninefold_maze_1_2": {
+      "source": "ninefold_maze_1_2.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            12,
+            14,
+            19,
+            "minecraft:chest"
+          ],
+          [
+            40,
+            23,
+            40,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "ninefold_maze_2_0": {
+      "source": "ninefold_maze_2_0.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            46,
+            6,
+            19,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            8,
+            5,
+            30,
+            "minecraft:sign"
+          ],
+          [
+            19,
+            23,
+            40,
+            "minecraft:chest"
+          ],
+          [
+            26,
+            14,
+            5,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "ninefold_maze_2_1": {
+      "source": "ninefold_maze_2_1.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "gems:ninefold_maze_2_0"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:empty"
+          ],
+          [
+            46,
+            6,
+            19,
+            "gems:ninefold_maze_2_2"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            12,
+            23,
+            26,
+            "minecraft:chest"
+          ],
+          [
+            19,
+            6,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            46,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "ninefold_maze_2_2": {
+      "source": "ninefold_maze_2_2.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            6,
+            19,
+            "minecraft:jigsaw"
+          ],
+          [
+            5,
+            14,
+            40,
+            "minecraft:chest"
+          ],
+          [
+            12,
+            5,
+            5,
+            "minecraft:chest"
+          ],
+          [
+            31,
+            5,
+            35,
+            "minecraft:sign"
+          ],
+          [
+            40,
+            14,
+            26,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "nour_boathouse_station_v5": {
+      "source": "nour_boathouse_station.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ],
+          [
+            11,
+            5,
+            24,
+            "minecraft:sign"
+          ],
+          [
+            14,
+            5,
+            17,
+            "minecraft:chest"
+          ],
+          [
+            36,
+            5,
+            36,
+            "minecraft:barrel"
+          ],
+          [
+            38,
+            5,
+            38,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "nour_foghouse_station_v5": {
+      "source": "nour_foghouse_station.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            40,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            11,
+            5,
+            35,
+            "minecraft:sign"
+          ],
+          [
+            25,
+            5,
+            17,
+            "minecraft:chest"
+          ],
+          [
+            30,
+            5,
+            25,
+            "minecraft:sign"
+          ],
+          [
+            40,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "nour_signal_harbor_station_v5": {
+      "source": "nour_signal_harbor_station.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:nour_foghouse_station_v5"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:nour_boathouse_station_v5"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            15,
+            5,
+            16,
+            "minecraft:chest"
+          ],
+          [
+            17,
+            5,
+            18,
+            "minecraft:sign"
+          ],
+          [
+            18,
+            5,
+            38,
+            "minecraft:sign"
+          ],
+          [
+            20,
+            5,
+            42,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            5,
+            33,
+            "minecraft:sign"
+          ],
+          [
+            31,
+            5,
+            16,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:friend",
+            23.5,
+            5.0,
+            18.5
+          ]
+        ]
+      }
+    },
+    "nour_sunken_relay_v4": {
+      "source": "nour_sunken_relay.schem",
+      "markers": {
+        "jigsaws": [],
+        "block_entities": [],
+        "entities": []
+      }
+    },
+    "omar_exchange_court_caravan_v3": {
+      "source": "omar_exchange_court_caravan.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ],
+          [
+            6,
+            5,
+            23,
+            "minecraft:sign"
+          ],
+          [
+            10,
+            5,
+            26,
+            "minecraft:sign"
+          ],
+          [
+            15,
+            5,
+            25,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "omar_lost_quarter_wadi_v5": {
+      "source": "omar_lost_quarter_wadi.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:omar_memory_loft"
+          ],
+          [
+            23,
+            5,
+            0,
+            "gems:omar_return_oasis"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:omar_exchange_court"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            12,
+            5,
+            29,
+            "minecraft:chest"
+          ],
+          [
+            22,
+            5,
+            37,
+            "minecraft:sign"
+          ],
+          [
+            22,
+            5,
+            38,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            5,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            5,
+            10,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            5,
+            42,
+            "minecraft:sign"
+          ],
+          [
+            34,
+            5,
+            29,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:friend",
+            23.5,
+            5.0,
+            30.5
+          ]
+        ]
+      }
+    },
+    "omar_memory_loft_caravan_v3": {
+      "source": "omar_memory_loft_caravan.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            40,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            27,
+            5,
+            25,
+            "minecraft:sign"
+          ],
+          [
+            31,
+            13,
+            24,
+            "minecraft:sign"
+          ],
+          [
+            33,
+            5,
+            24,
+            "minecraft:chest"
+          ],
+          [
+            40,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "omar_return_oasis_caravan_v3": {
+      "source": "omar_return_oasis_caravan.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            20,
+            5,
+            40,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            20,
+            5,
+            38,
+            "minecraft:sign"
+          ],
+          [
+            20,
+            5,
+            40,
+            "minecraft:jigsaw"
+          ],
+          [
+            26,
+            5,
+            38,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "othman_catalog_rotunda_v5": {
+      "source": "othman_catalog_rotunda.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ],
+          [
+            7,
+            18,
+            14,
+            "minecraft:sign"
+          ],
+          [
+            10,
+            5,
+            17,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "othman_library_archive_v11": {
+      "source": "othman_library_archive.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:othman_study_arrival_wing_v7"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:othman_catalog_rotunda_v5"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            8,
+            5,
+            12,
+            "minecraft:sign"
+          ],
+          [
+            12,
+            5,
+            29,
+            "minecraft:chest"
+          ],
+          [
+            17,
+            5,
+            12,
+            "minecraft:sign"
+          ],
+          [
+            18,
+            5,
+            37,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            5,
+            2,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            5,
+            39,
+            "minecraft:sign"
+          ],
+          [
+            26,
+            5,
+            13,
+            "minecraft:sign"
+          ],
+          [
+            26,
+            5,
+            17,
+            "minecraft:sign"
+          ],
+          [
+            29,
+            5,
+            12,
+            "minecraft:sign"
+          ],
+          [
+            34,
+            5,
+            29,
+            "minecraft:chest"
+          ],
+          [
+            38,
+            5,
+            34,
+            "minecraft:sign"
+          ],
+          [
+            40,
+            5,
+            23,
+            "minecraft:sign"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:friend",
+            21.5,
+            5.0,
+            24.5
+          ]
+        ]
+      }
+    },
+    "othman_study_arrival_wing_v7": {
+      "source": "othman_study_arrival_wing.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            54,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            4,
+            2,
+            9,
+            "minecraft:sign"
+          ],
+          [
+            39,
+            5,
+            14,
+            "minecraft:chest"
+          ],
+          [
+            41,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            44,
+            5,
+            16,
+            "minecraft:sign"
+          ],
+          [
+            54,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "redline_ember_bridge_v6": {
+      "source": "redline_ember_bridge.schem",
+      "markers": {
+        "jigsaws": [],
+        "block_entities": [
+          [
+            7,
+            5,
+            29,
+            "minecraft:barrel"
+          ],
+          [
+            39,
+            5,
+            29,
+            "minecraft:barrel"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "redline_house_civic_v4": {
+      "source": "redline_house_civic.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:redline_watchpost_v3"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:redline_infirmary_v3"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            5,
+            8,
+            "minecraft:chest"
+          ],
+          [
+            23,
+            5,
+            37,
+            "minecraft:sign"
+          ],
+          [
+            37,
+            5,
+            24,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:red_line_between",
+            23.5,
+            5.0,
+            23.5
+          ]
+        ]
+      }
+    },
+    "redline_infirmary_v3": {
+      "source": "redline_infirmary.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ],
+          [
+            6,
+            5,
+            26,
+            "minecraft:chest"
+          ],
+          [
+            7,
+            5,
+            16,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:watchkeeper",
+            7.5,
+            5.0,
+            21.5
+          ]
+        ]
+      }
+    },
+    "redline_watchpost_v3": {
+      "source": "redline_watchpost.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            40,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            25,
+            5,
+            25,
+            "minecraft:chest"
+          ],
+          [
+            34,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            40,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:watchkeeper",
+            35.5,
+            5.0,
+            20.5
+          ]
+        ]
+      }
+    },
+    "rehearsal_costume_house_v5": {
+      "source": "rehearsal_costume_house.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            30,
+            5,
+            15,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            15,
+            5,
+            19,
+            "minecraft:chest"
+          ],
+          [
+            25,
+            5,
+            10,
+            "minecraft:sign"
+          ],
+          [
+            30,
+            5,
+            15,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:understudy",
+            20.5,
+            5.0,
+            13.5
+          ]
+        ]
+      }
+    },
+    "rehearsal_north_causeway_v7": {
+      "source": "rehearsal_north_causeway.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            2,
+            1,
+            1,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            2,
+            1,
+            1,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "rehearsal_prop_foundry_v5": {
+      "source": "rehearsal_prop_foundry.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            15,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            15,
+            "minecraft:jigsaw"
+          ],
+          [
+            6,
+            5,
+            11,
+            "minecraft:sign"
+          ],
+          [
+            6,
+            5,
+            19,
+            "minecraft:sign"
+          ],
+          [
+            7,
+            5,
+            20,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:understudy",
+            6.5,
+            5.0,
+            15.5
+          ]
+        ]
+      }
+    },
+    "rehearsal_works_north_entry_v7": {
+      "source": "rehearsal_works_north_entry.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:rehearsal_costume_house_v5"
+          ],
+          [
+            21,
+            1,
+            0,
+            "gems:rehearsal_north_causeway_v7"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:rehearsal_prop_foundry_v5"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            11,
+            7,
+            11,
+            "minecraft:chest"
+          ],
+          [
+            20,
+            5,
+            39,
+            "minecraft:sign"
+          ],
+          [
+            21,
+            1,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            23,
+            5,
+            40,
+            "minecraft:sign"
+          ],
+          [
+            36,
+            9,
+            19,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:unbroken_punchline",
+            14.5,
+            7.0,
+            14.5
+          ]
+        ]
+      }
+    },
+    "second_chance_town_arrival_v4": {
+      "source": "second_chance_town_arrival.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            31,
+            "gems:town_market_arrival_v2"
+          ],
+          [
+            31,
+            5,
+            0,
+            "gems:town_guesthouse_arrival_v2"
+          ],
+          [
+            31,
+            5,
+            62,
+            "gems:town_hall_arrival_v6"
+          ],
+          [
+            62,
+            5,
+            7,
+            "gems:town_arcade"
+          ],
+          [
+            62,
+            5,
+            31,
+            "gems:town_casino"
+          ],
+          [
+            62,
+            5,
+            55,
+            "gems:town_lounge"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            31,
+            "minecraft:jigsaw"
+          ],
+          [
+            8,
+            5,
+            27,
+            "minecraft:sign"
+          ],
+          [
+            12,
+            5,
+            48,
+            "minecraft:chest"
+          ],
+          [
+            19,
+            5,
+            50,
+            "minecraft:sign"
+          ],
+          [
+            31,
+            5,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            31,
+            5,
+            40,
+            "minecraft:sign"
+          ],
+          [
+            31,
+            5,
+            50,
+            "minecraft:sign"
+          ],
+          [
+            31,
+            5,
+            62,
+            "minecraft:jigsaw"
+          ],
+          [
+            35,
+            5,
+            8,
+            "minecraft:sign"
+          ],
+          [
+            35,
+            5,
+            54,
+            "minecraft:sign"
+          ],
+          [
+            50,
+            5,
+            14,
+            "minecraft:chest"
+          ],
+          [
+            55,
+            5,
+            37,
+            "minecraft:sign"
+          ],
+          [
+            62,
+            5,
+            7,
+            "minecraft:jigsaw"
+          ],
+          [
+            62,
+            5,
+            31,
+            "minecraft:jigsaw"
+          ],
+          [
+            62,
+            5,
+            55,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "skywatch_lookout": {
+      "source": "skywatch_lookout.schem",
+      "markers": {
+        "jigsaws": [],
+        "block_entities": [
+          [
+            15,
+            4,
+            8,
+            "minecraft:sign"
+          ],
+          [
+            15,
+            25,
+            12,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "soryal_reclamation_district_v11": {
+      "source": "soryal_reclamation_district.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:soryal_reuse_hall_v7"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:soryal_sorting_quay_v7"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            13,
+            5,
+            28,
+            "minecraft:chest"
+          ],
+          [
+            23,
+            5,
+            40,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            5,
+            43,
+            "minecraft:sign"
+          ],
+          [
+            33,
+            5,
+            27,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:friend",
+            23.5,
+            5.0,
+            38.5
+          ]
+        ]
+      }
+    },
+    "soryal_reuse_hall_v7": {
+      "source": "soryal_reuse_hall.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            34,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            21,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            25,
+            13,
+            13,
+            "minecraft:sign"
+          ],
+          [
+            26,
+            5,
+            14,
+            "minecraft:chest"
+          ],
+          [
+            34,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "soryal_sorting_quay_v7": {
+      "source": "soryal_sorting_quay.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ],
+          [
+            6,
+            5,
+            16,
+            "minecraft:sign"
+          ],
+          [
+            10,
+            5,
+            18,
+            "minecraft:sign"
+          ],
+          [
+            15,
+            5,
+            14,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "star_cipher": {
+      "source": "star_cipher.schem",
+      "markers": {
+        "jigsaws": [],
+        "block_entities": [
+          [
+            17,
+            4,
+            7,
+            "minecraft:sign"
+          ],
+          [
+            17,
+            4,
+            30,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "town_arcade_deco_v2": {
+      "source": "town_arcade_deco.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            7,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            7,
+            "minecraft:jigsaw"
+          ],
+          [
+            8,
+            5,
+            10,
+            "minecraft:sign"
+          ],
+          [
+            16,
+            5,
+            9,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "town_casino_deco_v2": {
+      "source": "town_casino_deco.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            15,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            15,
+            "minecraft:jigsaw"
+          ],
+          [
+            7,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            9,
+            5,
+            6,
+            "minecraft:sign"
+          ],
+          [
+            9,
+            5,
+            16,
+            "minecraft:sign"
+          ],
+          [
+            9,
+            5,
+            23,
+            "minecraft:sign"
+          ],
+          [
+            13,
+            5,
+            23,
+            "minecraft:sign"
+          ],
+          [
+            15,
+            5,
+            22,
+            "minecraft:sign"
+          ],
+          [
+            17,
+            5,
+            21,
+            "minecraft:sign"
+          ],
+          [
+            20,
+            5,
+            6,
+            "minecraft:sign"
+          ],
+          [
+            20,
+            5,
+            16,
+            "minecraft:sign"
+          ],
+          [
+            20,
+            5,
+            23,
+            "minecraft:sign"
+          ],
+          [
+            22,
+            5,
+            21,
+            "minecraft:sign"
+          ],
+          [
+            24,
+            5,
+            23,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:friend",
+            15.5,
+            5.0,
+            24.5
+          ]
+        ]
+      }
+    },
+    "town_guesthouse_arrival_v2": {
+      "source": "town_guesthouse_arrival.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            10,
+            5,
+            20,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            5,
+            5,
+            15,
+            "minecraft:chest"
+          ],
+          [
+            6,
+            5,
+            18,
+            "minecraft:sign"
+          ],
+          [
+            10,
+            5,
+            10,
+            "minecraft:sign"
+          ],
+          [
+            10,
+            5,
+            20,
+            "minecraft:jigsaw"
+          ],
+          [
+            13,
+            5,
+            0,
+            "minecraft:sign"
+          ],
+          [
+            14,
+            5,
+            12,
+            "minecraft:sign"
+          ],
+          [
+            15,
+            5,
+            6,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "town_hall_arrival_v6": {
+      "source": "town_hall_arrival.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            15,
+            5,
+            0,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            5,
+            7,
+            10,
+            "minecraft:sign"
+          ],
+          [
+            5,
+            7,
+            16,
+            "minecraft:sign"
+          ],
+          [
+            5,
+            7,
+            21,
+            "minecraft:sign"
+          ],
+          [
+            5,
+            7,
+            25,
+            "minecraft:sign"
+          ],
+          [
+            7,
+            5,
+            22,
+            "minecraft:chest"
+          ],
+          [
+            10,
+            7,
+            10,
+            "minecraft:sign"
+          ],
+          [
+            10,
+            7,
+            21,
+            "minecraft:sign"
+          ],
+          [
+            10,
+            7,
+            25,
+            "minecraft:sign"
+          ],
+          [
+            11,
+            5,
+            2,
+            "minecraft:sign"
+          ],
+          [
+            12,
+            7,
+            8,
+            "minecraft:sign"
+          ],
+          [
+            12,
+            7,
+            19,
+            "minecraft:sign"
+          ],
+          [
+            15,
+            5,
+            0,
+            "minecraft:jigsaw"
+          ],
+          [
+            15,
+            7,
+            10,
+            "minecraft:sign"
+          ],
+          [
+            15,
+            7,
+            16,
+            "minecraft:sign"
+          ],
+          [
+            15,
+            7,
+            21,
+            "minecraft:sign"
+          ],
+          [
+            15,
+            7,
+            25,
+            "minecraft:sign"
+          ],
+          [
+            15,
+            10,
+            6,
+            "minecraft:sign"
+          ],
+          [
+            18,
+            7,
+            8,
+            "minecraft:sign"
+          ],
+          [
+            18,
+            7,
+            19,
+            "minecraft:sign"
+          ],
+          [
+            20,
+            7,
+            10,
+            "minecraft:sign"
+          ],
+          [
+            20,
+            7,
+            16,
+            "minecraft:sign"
+          ],
+          [
+            20,
+            7,
+            21,
+            "minecraft:sign"
+          ],
+          [
+            20,
+            7,
+            25,
+            "minecraft:sign"
+          ],
+          [
+            25,
+            7,
+            10,
+            "minecraft:sign"
+          ],
+          [
+            25,
+            7,
+            16,
+            "minecraft:sign"
+          ],
+          [
+            25,
+            7,
+            21,
+            "minecraft:sign"
+          ],
+          [
+            25,
+            7,
+            25,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "town_lounge_deco_v2": {
+      "source": "town_lounge_deco.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            7,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            7,
+            "minecraft:jigsaw"
+          ],
+          [
+            8,
+            5,
+            10,
+            "minecraft:sign"
+          ],
+          [
+            16,
+            5,
+            9,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "town_market_arrival_v2": {
+      "source": "town_market_arrival.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            20,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            16,
+            "minecraft:sign"
+          ],
+          [
+            6,
+            5,
+            18,
+            "minecraft:sign"
+          ],
+          [
+            7,
+            5,
+            10,
+            "minecraft:barrel"
+          ],
+          [
+            9,
+            5,
+            9,
+            "minecraft:sign"
+          ],
+          [
+            10,
+            5,
+            4,
+            "minecraft:barrel"
+          ],
+          [
+            10,
+            5,
+            16,
+            "minecraft:barrel"
+          ],
+          [
+            12,
+            5,
+            13,
+            "minecraft:sign"
+          ],
+          [
+            14,
+            5,
+            5,
+            "minecraft:sign"
+          ],
+          [
+            14,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            16,
+            5,
+            16,
+            "minecraft:chest"
+          ],
+          [
+            20,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "undercard_ring_v5": {
+      "source": "undercard_ring.schem",
+      "markers": {
+        "jigsaws": [],
+        "block_entities": [
+          [
+            24,
+            5,
+            17,
+            "minecraft:sign"
+          ],
+          [
+            28,
+            33,
+            47,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "unwritten_court_v4": {
+      "source": "unwritten_court.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:unwritten_mask_archive_v3"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:unwritten_stewards_annex_v3"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            20,
+            6,
+            8,
+            "minecraft:chest"
+          ],
+          [
+            26,
+            7,
+            36,
+            "minecraft:sign"
+          ],
+          [
+            27,
+            6,
+            8,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:stray_cadenza",
+            23.5,
+            5.0,
+            23.5
+          ]
+        ]
+      }
+    },
+    "unwritten_end_source_v4": {
+      "source": "unwritten_end_source.schem",
+      "markers": {
+        "jigsaws": [],
+        "block_entities": [
+          [
+            9,
+            5,
+            20,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            5,
+            5,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            5,
+            43,
+            "minecraft:sign"
+          ],
+          [
+            37,
+            5,
+            20,
+            "minecraft:sign"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "unwritten_mask_archive_v3": {
+      "source": "unwritten_mask_archive.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            20,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            5,
+            5,
+            15,
+            "minecraft:chest"
+          ],
+          [
+            14,
+            5,
+            5,
+            "minecraft:sign"
+          ],
+          [
+            20,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:uncast",
+            10.5,
+            5.0,
+            8.5
+          ]
+        ]
+      }
+    },
+    "unwritten_stewards_annex_v3": {
+      "source": "unwritten_stewards_annex.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ],
+          [
+            6,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            16,
+            5,
+            6,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:uncast",
+            11.5,
+            5.0,
+            10.5
+          ]
+        ]
+      }
+    },
+    "yehia_prop_house_v3": {
+      "source": "yehia_prop_house.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            30,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            15,
+            5,
+            14,
+            "minecraft:chest"
+          ],
+          [
+            17,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            20,
+            5,
+            15,
+            "minecraft:sign"
+          ],
+          [
+            30,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": []
+      }
+    },
+    "yehia_story_lodge_arrival_v4": {
+      "source": "yehia_story_lodge_arrival.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            23,
+            "gems:yehia_prop_house_v3"
+          ],
+          [
+            46,
+            5,
+            23,
+            "gems:yehia_truth_garden_v3"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ],
+          [
+            12,
+            5,
+            28,
+            "minecraft:chest"
+          ],
+          [
+            13,
+            5,
+            35,
+            "minecraft:sign"
+          ],
+          [
+            19,
+            5,
+            4,
+            "minecraft:sign"
+          ],
+          [
+            23,
+            5,
+            41,
+            "minecraft:sign"
+          ],
+          [
+            34,
+            5,
+            28,
+            "minecraft:chest"
+          ],
+          [
+            46,
+            5,
+            23,
+            "minecraft:jigsaw"
+          ]
+        ],
+        "entities": [
+          [
+            "gems:friend",
+            20.5,
+            5.0,
+            25.5
+          ]
+        ]
+      }
+    },
+    "yehia_truth_garden_v3": {
+      "source": "yehia_truth_garden.schem",
+      "markers": {
+        "jigsaws": [
+          [
+            0,
+            5,
+            10,
+            "minecraft:empty"
+          ]
+        ],
+        "block_entities": [
+          [
+            0,
+            5,
+            10,
+            "minecraft:jigsaw"
+          ],
+          [
+            6,
+            5,
+            14,
+            "minecraft:sign"
+          ],
+          [
+            10,
+            5,
+            16,
+            "minecraft:sign"
+          ],
+          [
+            14,
+            5,
+            14,
+            "minecraft:chest"
+          ]
+        ],
+        "entities": []
+      }
+    }
+  }
+}
