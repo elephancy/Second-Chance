@@ -28,9 +28,9 @@ Optional:
 - Disabled gems and powers: `config/gems/disables.json`
   - Reload at runtime (op level 2+): `/gems reloadDisables`
 - Client config: `config/gems/client.json` (per-client, not synced to server)
-  - Players can toggle their own passives and choose keybind mode; see the [Gems controls guide](https://github.com/mahmoudelfeelig/Gems/blob/main/docs/CONTROLS_AND_HUD.md).
+  - Players can toggle their own passives and choose keybind mode; see the [Gems controls guide](https://github.com/elephancy/Gems/blob/main/docs/CONTROLS_AND_HUD.md).
 
-For config keys, units, and safety clamps, see the [Gems balance reference](https://github.com/mahmoudelfeelig/Gems/blob/main/balance.md).
+For config keys, units, and safety clamps, see the [Gems balance reference](https://github.com/elephancy/Gems/blob/main/balance.md).
 
 ### Changing rules on a dedicated server
 
@@ -115,7 +115,7 @@ terrain.
 
 ## Performance tips
 
-- If your server is large, consider lowering particle/sound load via the global visual knobs in `config/gems/balance.json` (see the [Gems balance reference](https://github.com/mahmoudelfeelig/Gems/blob/main/balance.md)).
+- If your server is large, consider lowering particle/sound load via the global visual knobs in `config/gems/balance.json` (see the [Gems balance reference](https://github.com/elephancy/Gems/blob/main/balance.md)).
 - Use `spark` to capture CPU profiles during heavy PvP and adjust the most expensive abilities (radii, durations, particle caps).
 
 ## Troubleshooting

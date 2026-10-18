@@ -6,9 +6,9 @@
   "description": "Friend realms, worldgen, campaign discoveries, bosses, and shared townhall rewards for Gems.",
   "authors": ["feel"],
   "contact": {
-    "homepage": "https://github.com/mahmoudelfeelig/Gems",
-    "sources": "https://github.com/mahmoudelfeelig/Gems",
-    "issues": "https://github.com/mahmoudelfeelig/Gems/issues"
+    "homepage": "https://github.com/elephancy/Gems",
+    "sources": "https://github.com/elephancy/Gems",
+    "issues": "https://github.com/elephancy/Gems/issues"
   },
   "license": "AGPL-3.0-only",
   "environment": "*",
