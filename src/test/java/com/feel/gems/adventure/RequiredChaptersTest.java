@@ -25,6 +25,9 @@ class RequiredChaptersTest {
 
     @Test
     void sharedPartialProgressSelectsTheNextChapterAfterAJoinOrRestart() {
+        // DIMENSION_CHAPTERS_26_3.md defines the sequence: three records, departure
+        // board, two shelters, evacuation, then the route-specific End Source.
+        // Assert those progress cues, rather than the retired imperative hint copy.
         NetherChapterState nether = new NetherChapterState();
         EndSourceState source = new EndSourceState();
 
@@ -36,7 +39,7 @@ class RequiredChaptersTest {
         nether.readRecord(NetherChapterState.SIGNAL);
         nether.readRecord(NetherChapterState.PLATFORM);
         assertTrue(RequiredChapters.nextLead(Path.REMEMBER, nether, source)
-                .contains("Set its departure board"));
+                .contains("departure board has changed"));
         nether.clearAnnex();
 
         assertTrue(RequiredChapters.nextLead(Path.REMEMBER, nether, source)
@@ -46,15 +49,15 @@ class RequiredChaptersTest {
                 .contains("1/2"));
         nether.restoreShelter(NetherChapterState.WEST_SHELTER);
         assertTrue(RequiredChapters.nextLead(Path.REMEMBER, nether, source)
-                .contains("Begin the evacuation"));
+                .contains("ready for an evacuation"));
         nether.clearBridge();
 
         assertTrue(RequiredChapters.nextLead(Path.REMEMBER, nether, source)
-                .contains("west and east stories"));
+                .contains("two different accounts"));
         assertTrue(RequiredChapters.nextLead(Path.REPAIR, nether, source)
-                .contains("protect both side lenses"));
+                .contains("side lenses pulse"));
         assertTrue(RequiredChapters.nextLead(Path.RELEASE, nether, source)
-                .contains("four changing calls"));
+                .contains("gallery calls move"));
         source.clear(Path.REMEMBER);
         assertNull(RequiredChapters.nextLead(Path.REMEMBER, nether, source));
     }
