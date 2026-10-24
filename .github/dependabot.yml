@@ -1,0 +1,36 @@
+# Weekly dependency proposals; existing checks and review still apply.
+version: 2
+updates:
+- package-ecosystem: github-actions
+  directory: /
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 3
+  groups:
+    compatible-updates:
+      patterns:
+      - '*'
+      update-types:
+      - minor
+      - patch
+- package-ecosystem: gitsubmodule
+  directory: /
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 3
+  groups:
+    submodule-updates:
+      patterns:
+      - '*'
+- package-ecosystem: gradle
+  directory: /
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 3
+  groups:
+    compatible-updates:
+      patterns:
+      - '*'
+      update-types:
+      - minor
+      - patch
