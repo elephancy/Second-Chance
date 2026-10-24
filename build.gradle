@@ -107,7 +107,7 @@ dependencies {
     implementation "com.github.glitchfiend:TerraBlender-fabric:${minecraft_version}-${terrablender_version}"
     add("clientImplementation", "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}")
 
-    testImplementation platform("org.junit:junit-bom:5.10.2")
+    testImplementation platform("org.junit:junit-bom:6.1.3")
     testImplementation "org.junit.jupiter:junit-jupiter-api"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine"
     testRuntimeOnly "org.junit.platform:junit-platform-launcher"
